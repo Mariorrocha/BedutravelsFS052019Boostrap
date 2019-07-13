@@ -2,3 +2,63 @@
 
     background-color: cornflowerblue;
 }
+
+.image-background{
+
+    background-image: url(images/viajes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+.images{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    size: 30px;
+  }
+
+  .text-page{
+
+    color:floralwhite;
+  }
+
+  .text-page #text-1{
+
+    font-weight: bold;
+    font-size: 15px;
+
+  }
+
+  .text-page #text-2{
+
+    font-weight: bold;
+
+  }
+
+  .text-page #text-3{
+
+    font-weight: bold;
+
+  }
+
+  @media only screen and (max-width: 400px) {
+    .images{
+       display: flex;
+       flex-direction: column-reverse;
+       align-items: center;
+       
+
+    }
+
+    i{
+        padding-top: 40px;
+    }
+  }
